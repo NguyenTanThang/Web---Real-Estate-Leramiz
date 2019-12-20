@@ -1,0 +1,56 @@
+/*Text Colors*/
+.text-color-black{
+    color: #000;
+}
+
+.text-color-white{
+    color: #FFF;
+}
+
+.text-color-primary{
+    color: var(--primary-color);
+}
+
+.text-color-grey{
+    color: #7f8c8d;
+}
+
+/*Centralize*/
+.centralize{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+/*Button*/
+.btn-primary-color{
+    color: #FFF;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-primary-color:hover,
+.btn-primary-color:hover * {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+/*Section Padding*/
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Section Header*/
+.section-header{
+    margin-bottom: 30px;
+}
+
+.section-header h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
