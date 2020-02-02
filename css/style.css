@@ -699,6 +699,7 @@ footer * {
 
 .blog-tags{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .blog-tags li {
