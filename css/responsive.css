@@ -1,6 +1,53 @@
 @media (min-width: 320px) and (max-width: 767px){
     .top-info:last-child *{
-        font-size: 0.7rem;
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 150vh !important;
+    }
+
+    header.header-half {
+        height: 100vh !important;
+    }
+
+    nav i {
+        color: #FFF;
+    }
+
+    .header-content {
+        top: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header.header-half .header-content{
+        top: 70%;
+    }
+
+    .top-sm-list {
+        width: 100%;
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .top-sm-list ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .top-sm-list ul li {
+        margin-left: 0;
+    }
+
+    .reg-log-list {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .reg-log-list li {
+        border: none;
     }
 
     .property-content,

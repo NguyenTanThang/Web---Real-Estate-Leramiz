@@ -24,6 +24,7 @@ header.header-half .header-content {
 .top-info {
     display: flex;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .top-info * {
